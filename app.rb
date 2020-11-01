@@ -8,6 +8,7 @@ class App < Sinatra::Base
 
   post '/food' do
     @favorite_food = params[:favorite_food]
+    "#{@favorite_food}"
   end
 
 end
